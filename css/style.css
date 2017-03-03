@@ -12,3 +12,23 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+.headshot {
+	width: 30%;
+    border-radius: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-clip: inherit;
+    margin-left: auto;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    margin-right: auto;
+}
+.has-icon img,
+.has-icon i {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+}
+
+.has-icon img:last-of-type {
+	margin-top: 0px;
+}
